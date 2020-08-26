@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-sefif;
+	font-size: 20px;
+	line-height: 35px;
+	background-color: rgb(238, 238, 238);
+}
+
+#list {
+	padding: 15px 0px;
+}
+
+.active {
+	color: rgb(33, 125, 168);
+	text-decoration: line-through;
+}
+
+.button {
+	font-size: 20px;
+	padding: 10px 15px;
+	margin-top: 20px;
+	background-color: rgb(194, 194, 194);
+	border: 0px;
+	border-radius: 6px;
+}
+
+.form {
+	margin-top: 50px;
+	width: 800px;
+	background-image: url(../img/fon.jpg);
+	padding: 10px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;	
+}
+
+.taskList {
+	padding: 5px 15px;
+}
+
+.zadacha {
+	font-size: 18px;
+	padding: 10px 15px;
+	margin-top: 20px;
+	background-color: rgb(194, 194, 194);
+	border: 0px;
+	border-radius: 6px;
+}
+
+.addTask {
+	font-size: 18px;
+	padding: 10px 15px;
+	margin-top: 20px;
+	background-color: rgb(194, 194, 194);
+	border: 0px;
+	border-radius: 6px;
+}
